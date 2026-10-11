@@ -1,0 +1,11 @@
+{
+  "name": "hothifa-github-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-card.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}

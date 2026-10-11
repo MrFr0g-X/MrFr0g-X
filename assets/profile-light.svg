@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="590" viewBox="0 0 1080 590" role="img" aria-labelledby="title desc">
+<title id="title">Hothifa Hamdan · AI Engineer</title>
+<desc id="desc">Terminal-style profile with an ASCII portrait, selected work, technical stack, and GitHub statistics.</desc>
+<style>
+.value,.key,.section,.stat,.ascii,.heading,.subheading{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace}
+.heading{font-size:21px;font-weight:700;fill:#0969da}
+.subheading{font-size:13px;fill:#57606a}
+.key{font-size:14px;fill:#9a6700}
+.value{font-size:14px;fill:#24292f}
+.section{font-size:13px;font-weight:700;letter-spacing:1.3px;fill:#57606a}
+.stat{font-size:13px;fill:#24292f}
+.ascii{font-size:13px;letter-spacing:0;fill:#40769a}
+</style>
+<rect width="1080" height="590" rx="16" fill="#f6f8fa"/>
+<rect x="1" y="1" width="1078" height="588" rx="15" fill="none" stroke="#d0d7de"/>
+<rect x="18" y="18" width="1044" height="554" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="42" cy="39" r="6" fill="#ff5f57"/><circle cx="61" cy="39" r="6" fill="#febc2e"/><circle cx="80" cy="39" r="6" fill="#28c840"/>
+<text x="487" y="44" class="subheading" >hothifa@github: ~</text>
+<text x="34" y="69" class="ascii" xml:space="preserve"></text>
+<text x="34" y="82.4" class="ascii" xml:space="preserve">                    ....:.-</text>
+<text x="34" y="95.8" class="ascii" xml:space="preserve">                     ...:-====</text>
+<text x="34" y="109.2" class="ascii" xml:space="preserve">                       .:-::---.</text>
+<text x="34" y="122.6" class="ascii" xml:space="preserve">              ..       :------::==</text>
+<text x="34" y="136" class="ascii" xml:space="preserve">           :-===-:.    .+==++==**=+</text>
+<text x="34" y="149.4" class="ascii" xml:space="preserve">         :==++++++=-    -+++++=#*=%@</text>
+<text x="34" y="162.8" class="ascii" xml:space="preserve">        .==++****++=.  .==--++-#*+%@@</text>
+<text x="34" y="176.2" class="ascii" xml:space="preserve">        :==+*****+++-  :*=++**+##*@@@@</text>
+<text x="34" y="189.60000000000002" class="ascii" xml:space="preserve">         .:-=+=----=:  :+-+*+**#%#%@%#+</text>
+<text x="34" y="203" class="ascii" xml:space="preserve">        .--: :-====-- .=::-=--+*%=*#*++=</text>
+<text x="34" y="216.4" class="ascii" xml:space="preserve">        ---:-+-+===*+.+#:.::-=-=%=-++==-</text>
+<text x="34" y="229.8" class="ascii" xml:space="preserve">   :.   -==-+*=-=++*=-*+..  .--=*:::-==--</text>
+<text x="34" y="243.20000000000002" class="ascii" xml:space="preserve">  .:    =*+==+++**#*==*.     . -=.-..:.:-</text>
+<text x="34" y="256.6" class="ascii" xml:space="preserve">  .:    :+==++*+++*+-=:        := : -.</text>
+<text x="34" y="270" class="ascii" xml:space="preserve"> ::.    .===***++++==-         :+ : .-</text>
+<text x="34" y="283.4" class="ascii" xml:space="preserve"> --.:..:.:+==+++*+=-=-:        :+ .  -:</text>
+<text x="34" y="296.8" class="ascii" xml:space="preserve"> -==***+*-.=+***+-:-+- .-:::::::+::..:=-..</text>
+<text x="34" y="310.20000000000005" class="ascii" xml:space="preserve"> #######**::-===:-=+*-  :****++-++===-=+:-</text>
+<text x="34" y="323.6" class="ascii" xml:space="preserve"> ++++++++++. ::-=+**+    .+*###-+*+**++*==</text>
+<text x="34" y="337" class="ascii" xml:space="preserve"> -------==:  ===++*=        :=*:+#+##**#*#</text>
+<text x="34" y="350.40000000000003" class="ascii" xml:space="preserve"> ::..::..    -==++-             :=+*#++#*+</text>
+<text x="34" y="363.8" class="ascii" xml:space="preserve"> ++++=:      :=+=.                 -*%#***</text>
+<text x="34" y="377.2" class="ascii" xml:space="preserve"> ++=.                                -#*##</text>
+<text x="34" y="390.6" class="ascii" xml:space="preserve"> .:           .                       =#**</text>
+<text x="34" y="404" class="ascii" xml:space="preserve">             -:                       :#*</text>
+<text x="34" y="417.40000000000003" class="ascii" xml:space="preserve">                                       **</text>
+<text x="34" y="430.8" class="ascii" xml:space="preserve">             :                         *%</text>
+<text x="34" y="444.2" class="ascii" xml:space="preserve">            -+.                        =</text>
+<text x="34" y="457.6" class="ascii" xml:space="preserve">            =-.</text>
+<text x="34" y="471" class="ascii" xml:space="preserve">            .</text>
+<text x="34" y="484.40000000000003" class="ascii" xml:space="preserve">          . ::</text>
+<text x="34" y="497.8" class="ascii" xml:space="preserve">         .: :-</text>
+<text x="34" y="511.2" class="ascii" xml:space="preserve">          : ..</text>
+<text x="34" y="524.6" class="ascii" xml:space="preserve">            :.</text>
+<text x="34" y="538" class="ascii" xml:space="preserve">         .  .</text>
+<text x="34" y="551.4000000000001" class="ascii" xml:space="preserve"></text>
+<text x="34" y="564.8" class="ascii" xml:space="preserve"></text>
+<text x="34" y="578.2" class="ascii" xml:space="preserve"></text>
+<line x1="436" y1="65" x2="436" y2="550" stroke="#d0d7de"/>
+<text x="462" y="77" class="heading" >Hothifa Hamdan</text>
+<text x="462" y="109" class="key" >Role</text><text x="686" y="109" class="value" >AI Engineer</text>
+<text x="462" y="137" class="key" >Location</text><text x="686" y="137" class="value" >Cairo, Egypt</text>
+<text x="462" y="165" class="key" >Education</text><text x="686" y="165" class="value" >B.Sc. Computer Science · 2026</text>
+<text x="462" y="193" class="key" >Focus</text><text x="686" y="193" class="value" >Speech · LLM evaluation · XAI</text>
+<text x="462" y="234" class="section" >SELECTED WORK</text>
+<line x1="592" y1="229" x2="1034" y2="229" stroke="#d0d7de"/>
+<text x="462" y="267" class="key" >CallTone</text><text x="686" y="267" class="value" >Speech + LLM quality assurance</text>
+<text x="462" y="295" class="key" >FLUQAS</text><text x="686" y="295" class="value" >Bilingual medical QA · research</text>
+<text x="462" y="323" class="key" >MRI research</text><text x="686" y="323" class="value" >Classification + explanation</text>
+<text x="462" y="351" class="key" >ZewailCalendar</text><text x="686" y="351" class="value" >Schedule → calendar</text>
+<text x="462" y="390" class="section" >TOOLCHAIN</text>
+<line x1="554" y1="385" x2="1034" y2="385" stroke="#d0d7de"/>
+<text x="462" y="423" class="key" >Languages</text><text x="686" y="423" class="value" >Python · TypeScript · SQL</text>
+<text x="462" y="451" class="key" >AI / data</text><text x="686" y="451" class="value" >PyTorch · scikit-learn · SHAP</text>
+<text x="462" y="479" class="key" >Delivery</text><text x="686" y="479" class="value" >FastAPI · Docker · PostgreSQL</text>
+<text x="462" y="514" class="section" >GITHUB</text>
+<line x1="528" y1="509" x2="1034" y2="509" stroke="#d0d7de"/>
+<text x="462" y="545" class="stat" >22 public repos</text>
+<text x="690" y="545" class="stat" >18 stars</text>
+<text x="866" y="545" class="stat" >26 followers</text>
+</svg>
