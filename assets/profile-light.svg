@@ -1,80 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="590" viewBox="0 0 1080 590" role="img" aria-labelledby="title desc">
-<title id="title">Hothifa Hamdan · AI Engineer</title>
-<desc id="desc">Terminal-style profile with an ASCII portrait, selected work, technical stack, and GitHub statistics.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="540" viewBox="0 0 1050 540" role="img" aria-labelledby="title desc">
+<title id="title">Hothifa Hamdan - GitHub profile</title>
+<desc id="desc">ASCII portrait and verified public GitHub statistics for Hothifa Hamdan.</desc>
 <style>
-.value,.key,.section,.stat,.ascii,.heading,.subheading{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace}
-.heading{font-size:21px;font-weight:700;fill:#0969da}
-.subheading{font-size:13px;fill:#57606a}
+.heading,.value,.key,.section,.art,.note{font-family:Consolas,SFMono-Regular,Liberation Mono,monospace}
+.heading{font-size:16px;font-weight:700;fill:#0969da}
 .key{font-size:14px;fill:#9a6700}
 .value{font-size:14px;fill:#24292f}
-.section{font-size:13px;font-weight:700;letter-spacing:1.3px;fill:#57606a}
-.stat{font-size:13px;fill:#24292f}
-.ascii{font-size:13px;letter-spacing:0;fill:#40769a}
+.section{font-size:13px;font-weight:700;fill:#57606a}
+.art{font-size:13px;fill:#526b7d}
+.note{font-size:10px;fill:#57606a}
+.leader{stroke:#a9b3bd;stroke-width:1;stroke-dasharray:1 4}
+.rule{stroke:#a9b3bd;stroke-width:1}
 </style>
-<rect width="1080" height="590" rx="16" fill="#f6f8fa"/>
-<rect x="1" y="1" width="1078" height="588" rx="15" fill="none" stroke="#d0d7de"/>
-<rect x="18" y="18" width="1044" height="554" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-<circle cx="42" cy="39" r="6" fill="#ff5f57"/><circle cx="61" cy="39" r="6" fill="#febc2e"/><circle cx="80" cy="39" r="6" fill="#28c840"/>
-<text x="487" y="44" class="subheading" >hothifa@github: ~</text>
-<text x="34" y="69" class="ascii" xml:space="preserve"></text>
-<text x="34" y="82.4" class="ascii" xml:space="preserve">                    ....:.-</text>
-<text x="34" y="95.8" class="ascii" xml:space="preserve">                     ...:-====</text>
-<text x="34" y="109.2" class="ascii" xml:space="preserve">                       .:-::---.</text>
-<text x="34" y="122.6" class="ascii" xml:space="preserve">              ..       :------::==</text>
-<text x="34" y="136" class="ascii" xml:space="preserve">           :-===-:.    .+==++==**=+</text>
-<text x="34" y="149.4" class="ascii" xml:space="preserve">         :==++++++=-    -+++++=#*=%@</text>
-<text x="34" y="162.8" class="ascii" xml:space="preserve">        .==++****++=.  .==--++-#*+%@@</text>
-<text x="34" y="176.2" class="ascii" xml:space="preserve">        :==+*****+++-  :*=++**+##*@@@@</text>
-<text x="34" y="189.60000000000002" class="ascii" xml:space="preserve">         .:-=+=----=:  :+-+*+**#%#%@%#+</text>
-<text x="34" y="203" class="ascii" xml:space="preserve">        .--: :-====-- .=::-=--+*%=*#*++=</text>
-<text x="34" y="216.4" class="ascii" xml:space="preserve">        ---:-+-+===*+.+#:.::-=-=%=-++==-</text>
-<text x="34" y="229.8" class="ascii" xml:space="preserve">   :.   -==-+*=-=++*=-*+..  .--=*:::-==--</text>
-<text x="34" y="243.20000000000002" class="ascii" xml:space="preserve">  .:    =*+==+++**#*==*.     . -=.-..:.:-</text>
-<text x="34" y="256.6" class="ascii" xml:space="preserve">  .:    :+==++*+++*+-=:        := : -.</text>
-<text x="34" y="270" class="ascii" xml:space="preserve"> ::.    .===***++++==-         :+ : .-</text>
-<text x="34" y="283.4" class="ascii" xml:space="preserve"> --.:..:.:+==+++*+=-=-:        :+ .  -:</text>
-<text x="34" y="296.8" class="ascii" xml:space="preserve"> -==***+*-.=+***+-:-+- .-:::::::+::..:=-..</text>
-<text x="34" y="310.20000000000005" class="ascii" xml:space="preserve"> #######**::-===:-=+*-  :****++-++===-=+:-</text>
-<text x="34" y="323.6" class="ascii" xml:space="preserve"> ++++++++++. ::-=+**+    .+*###-+*+**++*==</text>
-<text x="34" y="337" class="ascii" xml:space="preserve"> -------==:  ===++*=        :=*:+#+##**#*#</text>
-<text x="34" y="350.40000000000003" class="ascii" xml:space="preserve"> ::..::..    -==++-             :=+*#++#*+</text>
-<text x="34" y="363.8" class="ascii" xml:space="preserve"> ++++=:      :=+=.                 -*%#***</text>
-<text x="34" y="377.2" class="ascii" xml:space="preserve"> ++=.                                -#*##</text>
-<text x="34" y="390.6" class="ascii" xml:space="preserve"> .:           .                       =#**</text>
-<text x="34" y="404" class="ascii" xml:space="preserve">             -:                       :#*</text>
-<text x="34" y="417.40000000000003" class="ascii" xml:space="preserve">                                       **</text>
-<text x="34" y="430.8" class="ascii" xml:space="preserve">             :                         *%</text>
-<text x="34" y="444.2" class="ascii" xml:space="preserve">            -+.                        =</text>
-<text x="34" y="457.6" class="ascii" xml:space="preserve">            =-.</text>
-<text x="34" y="471" class="ascii" xml:space="preserve">            .</text>
-<text x="34" y="484.40000000000003" class="ascii" xml:space="preserve">          . ::</text>
-<text x="34" y="497.8" class="ascii" xml:space="preserve">         .: :-</text>
-<text x="34" y="511.2" class="ascii" xml:space="preserve">          : ..</text>
-<text x="34" y="524.6" class="ascii" xml:space="preserve">            :.</text>
-<text x="34" y="538" class="ascii" xml:space="preserve">         .  .</text>
-<text x="34" y="551.4000000000001" class="ascii" xml:space="preserve"></text>
-<text x="34" y="564.8" class="ascii" xml:space="preserve"></text>
-<text x="34" y="578.2" class="ascii" xml:space="preserve"></text>
-<line x1="436" y1="65" x2="436" y2="550" stroke="#d0d7de"/>
-<text x="462" y="77" class="heading" >Hothifa Hamdan</text>
-<text x="462" y="109" class="key" >Role</text><text x="686" y="109" class="value" >AI Engineer</text>
-<text x="462" y="137" class="key" >Location</text><text x="686" y="137" class="value" >Cairo, Egypt</text>
-<text x="462" y="165" class="key" >Education</text><text x="686" y="165" class="value" >B.Sc. Computer Science · 2026</text>
-<text x="462" y="193" class="key" >Focus</text><text x="686" y="193" class="value" >Speech · LLM evaluation · XAI</text>
-<text x="462" y="234" class="section" >SELECTED WORK</text>
-<line x1="592" y1="229" x2="1034" y2="229" stroke="#d0d7de"/>
-<text x="462" y="267" class="key" >CallTone</text><text x="686" y="267" class="value" >Speech + LLM quality assurance</text>
-<text x="462" y="295" class="key" >FLUQAS</text><text x="686" y="295" class="value" >Bilingual medical QA · research</text>
-<text x="462" y="323" class="key" >MRI research</text><text x="686" y="323" class="value" >Classification + explanation</text>
-<text x="462" y="351" class="key" >ZewailCalendar</text><text x="686" y="351" class="value" >Schedule → calendar</text>
-<text x="462" y="390" class="section" >TOOLCHAIN</text>
-<line x1="554" y1="385" x2="1034" y2="385" stroke="#d0d7de"/>
-<text x="462" y="423" class="key" >Languages</text><text x="686" y="423" class="value" >Python · TypeScript · SQL</text>
-<text x="462" y="451" class="key" >AI / data</text><text x="686" y="451" class="value" >PyTorch · scikit-learn · SHAP</text>
-<text x="462" y="479" class="key" >Delivery</text><text x="686" y="479" class="value" >FastAPI · Docker · PostgreSQL</text>
-<text x="462" y="514" class="section" >GITHUB</text>
-<line x1="528" y1="509" x2="1034" y2="509" stroke="#d0d7de"/>
-<text x="462" y="545" class="stat" >22 public repos</text>
-<text x="690" y="545" class="stat" >18 stars</text>
-<text x="866" y="545" class="stat" >26 followers</text>
+<text x="19" y="31" class="art" xml:space="preserve">            ::::::::::::::;x::::::::::</text>
+<text x="19" y="44.55" class="art" xml:space="preserve">            :::::::::::::::x::::::::::</text>
+<text x="19" y="58.1" class="art" xml:space="preserve">            ::::::::.::::::x:.::::::::</text>
+<text x="19" y="71.65" class="art" xml:space="preserve">            ::::::;;+======x+;:..:::::</text>
+<text x="19" y="85.2" class="art" xml:space="preserve">            ;;::;=XX$$XX$$XX$$X=;..:::</text>
+<text x="19" y="98.75" class="art" xml:space="preserve">            xxxxX$@$$$$X$$@$$$@@$x+:..</text>
+<text x="19" y="112.30000000000001" class="art" xml:space="preserve">            ;xX$$$x=xx=x=xxX$$@@@@$x;+</text>
+<text x="19" y="125.85000000000001" class="art" xml:space="preserve">            +X$X=;:....::::;+=X$@@@$x+</text>
+<text x="19" y="139.4" class="art" xml:space="preserve">            xXx..       ....::;++X@@x.</text>
+<text x="19" y="152.95" class="art" xml:space="preserve">          ;+Xx: .        ....:;+;:x@$:..</text>
+<text x="19" y="166.5" class="art" xml:space="preserve">          ;=x; .         ....;;++;+$$;..</text>
+<text x="19" y="180.05" class="art" xml:space="preserve">          ;==:            ...:;++++x$;..</text>
+<text x="19" y="193.60000000000002" class="art" xml:space="preserve">          ;x+...            ..:;++;;X;..</text>
+<text x="19" y="207.15" class="art" xml:space="preserve">          ;=+X$==++==++..;+===+=xxXx+:..</text>
+<text x="19" y="220.70000000000002" class="art" xml:space="preserve">           .;==:++:==++Xx@XX====xx$X++;.</text>
+<text x="19" y="234.25" class="art" xml:space="preserve">            ..; .;;+;.+;.xXxx=+=x=x;===.</text>
+<text x="19" y="247.8" class="art" xml:space="preserve">            . :. .   ::  +$x+:..:;+;==+.</text>
+<text x="19" y="261.35" class="art" xml:space="preserve">          : .    .:;;.   :=xx+::;+;;x=..</text>
+<text x="19" y="274.9" class="art" xml:space="preserve">          ;  .   .:  .. :xXxxx;..;;;=;..</text>
+<text x="19" y="288.45" class="art" xml:space="preserve">          ;...  ;;     .:;+++=x;:==++...</text>
+<text x="19" y="302" class="art" xml:space="preserve">          ;+;.. ;;::     .:+xXx;:x=:....</text>
+<text x="19" y="315.55" class="art" xml:space="preserve">          ;;;.....        :+=+::xx;.....</text>
+<text x="19" y="329.1" class="art" xml:space="preserve">          ;;;..:.      ..:;==+=xx+......</text>
+<text x="19" y="342.65000000000003" class="art" xml:space="preserve">          ;;;...:.     ..:;;;=xx=:......</text>
+<text x="19" y="356.20000000000005" class="art" xml:space="preserve">         =;;;:.   ..     .;+=xx=+:.......</text>
+<text x="19" y="369.75" class="art" xml:space="preserve">         =;;;: .   .::;++=xx====++:......</text>
+<text x="19" y="383.3" class="art" xml:space="preserve">        +=;;:; .     .:;+=====++=x.+......</text>
+<text x="19" y="396.85" class="art" xml:space="preserve">       .+x;;+X          ::;;;;;++  $Xx;....</text>
+<text x="19" y="410.40000000000003" class="art" xml:space="preserve">       :+x+=xx=        .......:    X@@@x+;:</text>
+<text x="19" y="423.95000000000005" class="art" xml:space="preserve">      x=xXxxXxx+      ..          .X@@@$@@$x</text>
+<text x="19" y="437.5" class="art" xml:space="preserve">     XXXXxxxXX=x+   .;  :: .;=x;  :x$@$X$$$$X</text>
+<text x="19" y="451.05" class="art" xml:space="preserve">     XXXxxxxXXx=x; .x==;;+=X$@@X. +=$$$x$$$$$</text>
+<text x="19" y="464.6" class="art" xml:space="preserve">    $XXxxxxxXXX===+.  ;x+;=X$@x   ;=X$@xX$$$$$</text>
+<text x="19" y="478.15000000000003" class="art" xml:space="preserve">    XXxxxxxxxX$++===    ++=$@X.  ;;=X$@XX$$$$$</text>
+<text x="19" y="491.70000000000005" class="art" xml:space="preserve">   $XXxxxxxxxXXx.+=x=    +X$@;   ;:xX$@XX$$$$$$</text>
+<text x="19" y="505.25" class="art" xml:space="preserve">  XXXxxxxxxxxXXX=:==x+   ;+X@x  .:;x=$@XX$$$$$X$</text>
+<text x="438" y="32" class="heading" >hothifa@github</text>
+<text x="438" y="62" class="key" >Role</text><line x1="482" y1="58" x2="919" y2="58" class="leader"/><text x="1020" y="62" class="value" text-anchor="end">AI Engineer</text>
+<text x="438" y="85" class="key" >Location</text><line x1="515" y1="81" x2="911" y2="81" class="leader"/><text x="1020" y="85" class="value" text-anchor="end">Cairo, Egypt</text>
+<text x="438" y="108" class="key" >Degree</text><line x1="499" y1="104" x2="781" y2="104" class="leader"/><text x="1020" y="108" class="value" text-anchor="end">B.Sc. Computer Science, 2026</text>
+<text x="438" y="131" class="key" >Work</text><line x1="482" y1="127" x2="878" y2="127" class="leader"/><text x="1020" y="131" class="value" text-anchor="end">Intag | Tanmeyah</text>
+<text x="438" y="170" class="section" >Focus and tools</text><line x1="578" y1="165" x2="1020" y2="165" class="rule"/>
+<text x="438" y="195" class="key" >Focus</text><line x1="491" y1="191" x2="789" y2="191" class="leader"/><text x="1020" y="195" class="value" text-anchor="end">Speech, LLM evaluation, XAI</text>
+<text x="438" y="218" class="key" >Languages</text><line x1="523" y1="214" x2="822" y2="214" class="leader"/><text x="1020" y="218" class="value" text-anchor="end">Python, TypeScript, SQL</text>
+<text x="438" y="241" class="key" >Toolchain</text><line x1="523" y1="237" x2="814" y2="237" class="leader"/><text x="1020" y="241" class="value" text-anchor="end">PyTorch, FastAPI, Docker</text>
+<text x="438" y="279" class="section" >Contact</text><line x1="511" y1="274" x2="1020" y2="274" class="rule"/>
+<text x="438" y="304" class="key" >Portfolio</text><line x1="523" y1="300" x2="878" y2="300" class="leader"/><text x="1020" y="304" class="value" text-anchor="end">hothifa.is-a.dev</text>
+<text x="438" y="327" class="key" >Email</text><line x1="491" y1="323" x2="725" y2="323" class="leader"/><text x="1020" y="327" class="value" text-anchor="end">s-hothifa.mohamed@zewailcity.edu.eg</text>
+<text x="438" y="350" class="key" >LinkedIn</text><line x1="515" y1="346" x2="870" y2="346" class="leader"/><text x="1020" y="350" class="value" text-anchor="end">in/hothifa-hamdan</text>
+<text x="438" y="389" class="section" >GitHub stats</text><line x1="553" y1="384" x2="1020" y2="384" class="rule"/>
+<text x="438" y="414" class="key" >Repositories</text><line x1="547" y1="410" x2="935" y2="410" class="leader"/><text x="1020" y="414" class="value" text-anchor="end">22 public</text>
+<text x="438" y="437" class="key" >Commits</text><line x1="507" y1="433" x2="830" y2="433" class="leader"/><text x="1020" y="437" class="value" text-anchor="end">146 in public projects</text>
+<text x="438" y="460" class="key" >Stars</text><line x1="491" y1="456" x2="935" y2="456" class="leader"/><text x="1020" y="460" class="value" text-anchor="end">18 earned</text>
+<text x="438" y="483" class="key" >Followers</text><line x1="523" y1="479" x2="992" y2="479" class="leader"/><text x="1020" y="483" class="value" text-anchor="end">26</text>
+<text x="438" y="506" class="key" >Lines of code</text><line x1="555" y1="502" x2="789" y2="502" class="leader"/><text x="1020" y="506" class="value" text-anchor="end">444,389 (+453,244 / -8,855)</text>
+<text x="438" y="528" class="note" >Net lines from authored public project commits.</text>
 </svg>
