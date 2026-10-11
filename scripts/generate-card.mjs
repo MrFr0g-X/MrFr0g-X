@@ -81,43 +81,35 @@ function section(y, label) {
   return `${text(438, y, label, "section")}<line x1="${Math.round(end + 14)}" y1="${y - 5}" x2="1020" y2="${y - 5}" class="rule"/>`;
 }
 
-async function portraitAscii() {
-  const input = await readFile("assets/portrait-source.jpg");
-  const width = 49;
-  const height = 36;
-  const rgb = await sharp(input)
-    .extract({ left: 105, top: 42, width: 305, height: 400 })
-    .resize(width, height, { fit: "fill" })
-    .removeAlpha()
+async function portraitPng(color, strength) {
+  const input = await readFile("assets/portrait-ascii.png");
+  const width = 400;
+  const height = 525;
+  const grayscale = await sharp(input)
+    .extract({ left: 520, top: 300, width: 1600, height: 2100 })
+    .resize(width, height)
+    .flatten({ background: "#ffffff" })
+    .grayscale()
     .raw()
     .toBuffer();
-  const shades = "  .:;+=xX$@";
-  const lines = [];
-  for (let y = 0; y < height; y++) {
-    let line = "";
-    for (let x = 0; x < width; x++) {
-      const nx = (x - width / 2) / (width / 2);
-      const ny = y / (height - 1);
-      const silhouette = ny < 0.23 ? 0.53 : ny < 0.68 ? 0.61 : 0.64 + (ny - 0.68) * 0.9;
-      if (Math.abs(nx) > Math.min(0.98, silhouette)) {
-        line += " ";
-        continue;
-      }
-      const offset = (y * width + x) * 3;
-      const luminance = rgb[offset] * 0.2126 + rgb[offset + 1] * 0.7152 + rgb[offset + 2] * 0.0722;
-      const darkness = Math.min(1, Math.max(0, (205 - luminance) / 185));
-      line += shades[Math.min(shades.length - 1, Math.floor(darkness * shades.length))];
-    }
-    lines.push(line.trimEnd());
+  const pixels = Buffer.alloc(width * height * 4);
+  for (let index = 0; index < grayscale.length; index++) {
+    const alpha = Math.min(255, Math.round((255 - grayscale[index]) * strength));
+    pixels[index * 4] = color[0];
+    pixels[index * 4 + 1] = color[1];
+    pixels[index * 4 + 2] = color[2];
+    pixels[index * 4 + 3] = alpha < 7 ? 0 : alpha;
   }
-  return lines;
+  const png = await sharp(pixels, { raw: { width, height, channels: 4 } })
+    .png({ compressionLevel: 9 })
+    .toBuffer();
+  return png.toString("base64");
 }
 
-function buildSvg(theme, ascii, stats) {
+function buildSvg(theme, portrait, stats) {
   const palette = theme === "dark"
-    ? { text: "#c9d1d9", muted: "#8b949e", accent: "#79c0ff", key: "#f0b673", art: "#a9bdcc", rule: "#485360" }
-    : { text: "#24292f", muted: "#57606a", accent: "#0969da", key: "#9a6700", art: "#526b7d", rule: "#a9b3bd" };
-  const art = ascii.map((line, index) => text(19, 31 + index * 13.55, line, "art", 'xml:space="preserve"')).join("\n");
+    ? { text: "#c9d1d9", muted: "#8b949e", accent: "#79c0ff", key: "#f0b673", rule: "#485360" }
+    : { text: "#24292f", muted: "#57606a", accent: "#0969da", key: "#9a6700", rule: "#a9b3bd" };
   const netLines = stats.additions - stats.deletions;
   const body = [
     text(438, 32, "hothifa@github", "heading"),
@@ -145,25 +137,25 @@ function buildSvg(theme, ascii, stats) {
 <title id="title">Hothifa Hamdan - GitHub profile</title>
 <desc id="desc">ASCII portrait and verified public GitHub statistics for Hothifa Hamdan.</desc>
 <style>
-.heading,.value,.key,.section,.art,.note{font-family:Consolas,SFMono-Regular,Liberation Mono,monospace}
+.heading,.value,.key,.section,.note{font-family:Consolas,SFMono-Regular,Liberation Mono,monospace}
 .heading{font-size:16px;font-weight:700;fill:${palette.accent}}
 .key{font-size:14px;fill:${palette.key}}
 .value{font-size:14px;fill:${palette.text}}
 .section{font-size:13px;font-weight:700;fill:${palette.muted}}
-.art{font-size:13px;fill:${palette.art}}
 .note{font-size:10px;fill:${palette.muted}}
 .leader{stroke:${palette.rule};stroke-width:1;stroke-dasharray:1 4}
 .rule{stroke:${palette.rule};stroke-width:1}
 </style>
-${art}
+<image x="19" y="7" width="400" height="525" href="data:image/png;base64,${portrait}"/>
 ${body}
 </svg>\n`;
 }
 
-const [user, repos, ascii] = await Promise.all([
+const [user, repos, darkPortrait, lightPortrait] = await Promise.all([
   github(`https://api.github.com/users/${username}`),
   github(`https://api.github.com/users/${username}/repos?per_page=100&type=owner`),
-  portraitAscii(),
+  portraitPng([169, 189, 204], 2.2),
+  portraitPng([43, 60, 72], 2.8),
 ]);
 const commitStats = await commitStatistics(repos, user.node_id);
 const stats = {
@@ -173,7 +165,7 @@ const stats = {
   ...commitStats,
 };
 await Promise.all([
-  writeFile("assets/profile-dark.svg", buildSvg("dark", ascii, stats)),
-  writeFile("assets/profile-light.svg", buildSvg("light", ascii, stats)),
+  writeFile("assets/profile-dark.svg", buildSvg("dark", darkPortrait, stats)),
+  writeFile("assets/profile-light.svg", buildSvg("light", lightPortrait, stats)),
 ]);
 console.log(JSON.stringify(stats));
